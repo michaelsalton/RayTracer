@@ -1,0 +1,11 @@
+# CMake build output
+build/
+out/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+
+# Rendered images
+*.ppm

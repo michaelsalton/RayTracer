@@ -9,6 +9,9 @@ int main() {
     // render
     std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 
+    // iterate over the file grid
+    // rows of pixels written out left to right
+    // rows written top to bottom
     for (int j = 0; j < image_height; j++)
     {
         for (int i = 0; i < image_width; i++)
